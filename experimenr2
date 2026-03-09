@@ -1,0 +1,14 @@
+
+num = 5
+if num > 0:
+    print("Number is Positive")
+else:
+    print("Number is Negative")
+print("\nFor Loop:")
+for i in range(1, 6):
+    print(i)
+print("\nWhile Loop:")
+i = 1
+while i <= 5:
+    print(i)
+    i += 1
