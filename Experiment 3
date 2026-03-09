@@ -1,0 +1,9 @@
+s = "Hello World"
+print("Original String:", s)
+print("Length:", len(s))
+print("Uppercase:", s.upper())
+print("Lowercase:", s.lower())
+s2 = " Python"
+print("Concatenation:", s + s2)
+print("First 5 characters:", s[0:5])
+print("Replace:", s.replace("World", "Python"))
