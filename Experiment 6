@@ -1,0 +1,13 @@
+student = {"name": "Hafeiz", "age": 25, "course": "Python"}
+print("Original Dictionary:", student)
+print("Name:", student["name"])
+student["marks"] = 85
+print("After adding marks:", student)
+student["age"] = 25
+print("After updating age:", student)
+print("Length:", len(student))
+print("Keys:", student.keys())
+print("Values:", student.values())
+print("Dictionary elements:")
+for key, value in student.items():
+    print(key, ":", value)
